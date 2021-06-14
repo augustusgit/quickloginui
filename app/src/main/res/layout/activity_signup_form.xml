@@ -9,6 +9,19 @@
     android:padding="30dp"
     tools:context=".Signup_form">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/product_toolBar_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="true"
+        app:layout_collapseMode="pin"
+        android:onClick="onClick"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -108,5 +121,13 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/button_rounded"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="By tapping on 'Continue', you agree to the Terms of Use and Privacy Policy"
+        android:textAlignment="center"
+        android:textSize="10sp" />
 
 </LinearLayout>

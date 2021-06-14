@@ -12,9 +12,12 @@ public class login_form extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_form);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
     }
 
+    public void onClick(View v) {
+        super.onBackPressed(); // or super.finish();
+    }
 
     public void btn_signupForm(View view) {
         startActivity(new Intent(getApplicationContext(), Signup_form.class));
