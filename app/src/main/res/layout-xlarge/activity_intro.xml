@@ -10,14 +10,14 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="720dp"></androidx.viewpager.widget.ViewPager>
+        android:layout_height="1200dp"></androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
         android:id="@+id/dotsLayout"
         android:layout_width="171dp"
         android:layout_height="63dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="900dp"
         android:gravity="center"
         android:orientation="horizontal"
         ></LinearLayout>
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="570dp"
+        android:layout_marginTop="1040dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/button_rounded"
         android:text="Sign up"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:text="Already have an account? Login"
         android:onClick="btn_loginForm"
-        android:layout_marginTop="630dp"
+        android:layout_marginTop="1100dp"
         android:textAlignment="center"
         />
 
